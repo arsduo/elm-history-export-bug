@@ -8,6 +8,10 @@ times and then exporting the history yields malform data like so:
 {"$":0,"a":{"metadata":{"versions":{"elm":"0.19.0"},"types":{"message":"Main.Msg","aliases":{},"unions":{"Main.Msg":{"args":[],"tags":{"Decrement":[],"Increment":[],"UpdateSecretField":["String.String"]}},"String.String":{"args":[],"tags":{"String":[]}}}}},"history":[null,null,null,null,null]}}
 ```
 
+The export works fine for @rtfeldman's [Elm SPA
+example](https://github.com/rtfeldman/elm-spa-example/), so it must be something subtle about this
+code, but for the life of me I can't figure it out.
+
 **Expected:** the history field contains data about the messages that have been received
 
 **Actual:** each entry is null.
