@@ -31,3 +31,5 @@ You can also test this against webpack:
 3. Trigger actions and view the history data as above
 
 
+![elm-history-export-bug](https://user-images.githubusercontent.com/48325/45256873-006b5080-b362-11e8-8862-61235856797f.gif)
+<img width="955" alt="elm-version" src="https://user-images.githubusercontent.com/48325/45256874-006b5080-b362-11e8-83b7-2263cdf755a9.png">
